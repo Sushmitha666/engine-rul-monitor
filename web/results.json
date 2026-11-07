@@ -1,0 +1,527 @@
+{
+  "models": {
+    "Mean baseline": {
+      "val_rmse": 41.72082538935907,
+      "test_rmse": 43.10123174689181
+    },
+    "Linear regression": {
+      "val_rmse": 17.6575547194466,
+      "test_rmse": 21.661387646570958
+    },
+    "LightGBM": {
+      "val_rmse": 16.067201233838464,
+      "test_rmse": 17.77779227639823
+    },
+    "improvement_vs_baseline_pct": 58.75340087541639
+  },
+  "alerts": {
+    "threshold": 30,
+    "at_risk": 25,
+    "caught": 19,
+    "recall": 0.76,
+    "false_alarms": 1,
+    "precision": 0.95
+  },
+  "engines": [
+    {
+      "unit": 1,
+      "pred_rul": 125.0,
+      "true_rul": 112
+    },
+    {
+      "unit": 2,
+      "pred_rul": 123.3,
+      "true_rul": 98
+    },
+    {
+      "unit": 3,
+      "pred_rul": 39.9,
+      "true_rul": 69
+    },
+    {
+      "unit": 4,
+      "pred_rul": 87.0,
+      "true_rul": 82
+    },
+    {
+      "unit": 5,
+      "pred_rul": 97.8,
+      "true_rul": 91
+    },
+    {
+      "unit": 6,
+      "pred_rul": 108.9,
+      "true_rul": 93
+    },
+    {
+      "unit": 7,
+      "pred_rul": 107.4,
+      "true_rul": 91
+    },
+    {
+      "unit": 8,
+      "pred_rul": 79.5,
+      "true_rul": 95
+    },
+    {
+      "unit": 9,
+      "pred_rul": 120.8,
+      "true_rul": 111
+    },
+    {
+      "unit": 10,
+      "pred_rul": 112.4,
+      "true_rul": 96
+    },
+    {
+      "unit": 11,
+      "pred_rul": 103.9,
+      "true_rul": 97
+    },
+    {
+      "unit": 12,
+      "pred_rul": 113.7,
+      "true_rul": 124
+    },
+    {
+      "unit": 13,
+      "pred_rul": 105.2,
+      "true_rul": 95
+    },
+    {
+      "unit": 14,
+      "pred_rul": 125.0,
+      "true_rul": 107
+    },
+    {
+      "unit": 15,
+      "pred_rul": 112.7,
+      "true_rul": 83
+    },
+    {
+      "unit": 16,
+      "pred_rul": 77.7,
+      "true_rul": 84
+    },
+    {
+      "unit": 17,
+      "pred_rul": 50.9,
+      "true_rul": 50
+    },
+    {
+      "unit": 18,
+      "pred_rul": 45.1,
+      "true_rul": 28
+    },
+    {
+      "unit": 19,
+      "pred_rul": 96.7,
+      "true_rul": 87
+    },
+    {
+      "unit": 20,
+      "pred_rul": 9.8,
+      "true_rul": 16
+    },
+    {
+      "unit": 21,
+      "pred_rul": 70.5,
+      "true_rul": 57
+    },
+    {
+      "unit": 22,
+      "pred_rul": 115.1,
+      "true_rul": 111
+    },
+    {
+      "unit": 23,
+      "pred_rul": 104.2,
+      "true_rul": 113
+    },
+    {
+      "unit": 24,
+      "pred_rul": 17.9,
+      "true_rul": 20
+    },
+    {
+      "unit": 25,
+      "pred_rul": 124.5,
+      "true_rul": 145
+    },
+    {
+      "unit": 26,
+      "pred_rul": 116.8,
+      "true_rul": 119
+    },
+    {
+      "unit": 27,
+      "pred_rul": 88.9,
+      "true_rul": 66
+    },
+    {
+      "unit": 28,
+      "pred_rul": 76.2,
+      "true_rul": 97
+    },
+    {
+      "unit": 29,
+      "pred_rul": 99.7,
+      "true_rul": 90
+    },
+    {
+      "unit": 30,
+      "pred_rul": 95.6,
+      "true_rul": 115
+    },
+    {
+      "unit": 31,
+      "pred_rul": 21.1,
+      "true_rul": 8
+    },
+    {
+      "unit": 32,
+      "pred_rul": 48.6,
+      "true_rul": 48
+    },
+    {
+      "unit": 33,
+      "pred_rul": 124.9,
+      "true_rul": 106
+    },
+    {
+      "unit": 34,
+      "pred_rul": 10.0,
+      "true_rul": 7
+    },
+    {
+      "unit": 35,
+      "pred_rul": 8.0,
+      "true_rul": 11
+    },
+    {
+      "unit": 36,
+      "pred_rul": 17.7,
+      "true_rul": 19
+    },
+    {
+      "unit": 37,
+      "pred_rul": 54.0,
+      "true_rul": 21
+    },
+    {
+      "unit": 38,
+      "pred_rul": 37.7,
+      "true_rul": 50
+    },
+    {
+      "unit": 39,
+      "pred_rul": 119.8,
+      "true_rul": 142
+    },
+    {
+      "unit": 40,
+      "pred_rul": 24.8,
+      "true_rul": 28
+    },
+    {
+      "unit": 41,
+      "pred_rul": 55.8,
+      "true_rul": 18
+    },
+    {
+      "unit": 42,
+      "pred_rul": 12.6,
+      "true_rul": 10
+    },
+    {
+      "unit": 43,
+      "pred_rul": 72.9,
+      "true_rul": 59
+    },
+    {
+      "unit": 44,
+      "pred_rul": 116.5,
+      "true_rul": 109
+    },
+    {
+      "unit": 45,
+      "pred_rul": 68.7,
+      "true_rul": 114
+    },
+    {
+      "unit": 46,
+      "pred_rul": 41.9,
+      "true_rul": 47
+    },
+    {
+      "unit": 47,
+      "pred_rul": 114.8,
+      "true_rul": 135
+    },
+    {
+      "unit": 48,
+      "pred_rul": 109.5,
+      "true_rul": 92
+    },
+    {
+      "unit": 49,
+      "pred_rul": 25.9,
+      "true_rul": 21
+    },
+    {
+      "unit": 50,
+      "pred_rul": 108.2,
+      "true_rul": 79
+    },
+    {
+      "unit": 51,
+      "pred_rul": 78.8,
+      "true_rul": 114
+    },
+    {
+      "unit": 52,
+      "pred_rul": 26.9,
+      "true_rul": 29
+    },
+    {
+      "unit": 53,
+      "pred_rul": 31.9,
+      "true_rul": 26
+    },
+    {
+      "unit": 54,
+      "pred_rul": 110.5,
+      "true_rul": 97
+    },
+    {
+      "unit": 55,
+      "pred_rul": 102.3,
+      "true_rul": 137
+    },
+    {
+      "unit": 56,
+      "pred_rul": 9.3,
+      "true_rul": 15
+    },
+    {
+      "unit": 57,
+      "pred_rul": 89.0,
+      "true_rul": 103
+    },
+    {
+      "unit": 58,
+      "pred_rul": 39.9,
+      "true_rul": 37
+    },
+    {
+      "unit": 59,
+      "pred_rul": 113.2,
+      "true_rul": 114
+    },
+    {
+      "unit": 60,
+      "pred_rul": 82.2,
+      "true_rul": 100
+    },
+    {
+      "unit": 61,
+      "pred_rul": 42.0,
+      "true_rul": 21
+    },
+    {
+      "unit": 62,
+      "pred_rul": 49.0,
+      "true_rul": 54
+    },
+    {
+      "unit": 63,
+      "pred_rul": 76.3,
+      "true_rul": 72
+    },
+    {
+      "unit": 64,
+      "pred_rul": 39.4,
+      "true_rul": 28
+    },
+    {
+      "unit": 65,
+      "pred_rul": 122.2,
+      "true_rul": 128
+    },
+    {
+      "unit": 66,
+      "pred_rul": 13.7,
+      "true_rul": 14
+    },
+    {
+      "unit": 67,
+      "pred_rul": 114.5,
+      "true_rul": 77
+    },
+    {
+      "unit": 68,
+      "pred_rul": 6.5,
+      "true_rul": 8
+    },
+    {
+      "unit": 69,
+      "pred_rul": 120.4,
+      "true_rul": 121
+    },
+    {
+      "unit": 70,
+      "pred_rul": 74.4,
+      "true_rul": 94
+    },
+    {
+      "unit": 71,
+      "pred_rul": 106.0,
+      "true_rul": 118
+    },
+    {
+      "unit": 72,
+      "pred_rul": 78.8,
+      "true_rul": 50
+    },
+    {
+      "unit": 73,
+      "pred_rul": 99.7,
+      "true_rul": 131
+    },
+    {
+      "unit": 74,
+      "pred_rul": 73.2,
+      "true_rul": 126
+    },
+    {
+      "unit": 75,
+      "pred_rul": 96.6,
+      "true_rul": 113
+    },
+    {
+      "unit": 76,
+      "pred_rul": 12.2,
+      "true_rul": 10
+    },
+    {
+      "unit": 77,
+      "pred_rul": 57.6,
+      "true_rul": 34
+    },
+    {
+      "unit": 78,
+      "pred_rul": 122.6,
+      "true_rul": 107
+    },
+    {
+      "unit": 79,
+      "pred_rul": 88.0,
+      "true_rul": 63
+    },
+    {
+      "unit": 80,
+      "pred_rul": 77.9,
+      "true_rul": 90
+    },
+    {
+      "unit": 81,
+      "pred_rul": 10.4,
+      "true_rul": 8
+    },
+    {
+      "unit": 82,
+      "pred_rul": 8.5,
+      "true_rul": 9
+    },
+    {
+      "unit": 83,
+      "pred_rul": 118.3,
+      "true_rul": 137
+    },
+    {
+      "unit": 84,
+      "pred_rul": 69.4,
+      "true_rul": 58
+    },
+    {
+      "unit": 85,
+      "pred_rul": 125.0,
+      "true_rul": 118
+    },
+    {
+      "unit": 86,
+      "pred_rul": 87.6,
+      "true_rul": 89
+    },
+    {
+      "unit": 87,
+      "pred_rul": 114.5,
+      "true_rul": 116
+    },
+    {
+      "unit": 88,
+      "pred_rul": 121.7,
+      "true_rul": 115
+    },
+    {
+      "unit": 89,
+      "pred_rul": 95.9,
+      "true_rul": 136
+    },
+    {
+      "unit": 90,
+      "pred_rul": 29.0,
+      "true_rul": 28
+    },
+    {
+      "unit": 91,
+      "pred_rul": 29.4,
+      "true_rul": 38
+    },
+    {
+      "unit": 92,
+      "pred_rul": 15.8,
+      "true_rul": 20
+    },
+    {
+      "unit": 93,
+      "pred_rul": 50.2,
+      "true_rul": 85
+    },
+    {
+      "unit": 94,
+      "pred_rul": 56.1,
+      "true_rul": 55
+    },
+    {
+      "unit": 95,
+      "pred_rul": 107.6,
+      "true_rul": 128
+    },
+    {
+      "unit": 96,
+      "pred_rul": 111.9,
+      "true_rul": 137
+    },
+    {
+      "unit": 97,
+      "pred_rul": 95.1,
+      "true_rul": 82
+    },
+    {
+      "unit": 98,
+      "pred_rul": 67.3,
+      "true_rul": 59
+    },
+    {
+      "unit": 99,
+      "pred_rul": 116.8,
+      "true_rul": 117
+    },
+    {
+      "unit": 100,
+      "pred_rul": 15.6,
+      "true_rul": 20
+    }
+  ]
+}
